@@ -6,7 +6,4 @@ const iconApi = axios.create({
     credentials: 'include'
 })
 
-export default iconApi
-// headers : {
-//     "Authorization": localStorage.getItem("DoubleFactorToken")
-// }
+export default iconApi 

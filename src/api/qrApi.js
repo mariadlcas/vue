@@ -5,7 +5,4 @@ const qrApi = axios.create({
     headers : { "accept": "*/*","Content-Type": "application/octet-stream",},
     credentials: 'include'
 }) 
-export default qrApi;
-// headers : {
-//     "Authorization": localStorage.getItem("DoubleFactorToken")
-// }
+export default qrApi; 
