@@ -1,0 +1,6 @@
+        //  this.info = window.URL.createObjectURL(new Blob([response.data])),
+        this.info = URL.createObjectURL(new Blob([response.data])),
+        // this.info = URL.createObjectURL(new Blob([atob(response.data)],{type: "image/png"})),
+        // this.info = URL.createObjectURL(response.data) ,
+      console.log(this.info + " prueba")
+      )) 
